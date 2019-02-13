@@ -26,5 +26,13 @@ namespace Wissen.Controllers
 
             return View();
         }
+        [HttpPost]
+        public ActionResult Contact(string firstName, string lastName, string email, string phone, string message, string subject)
+        {
+            // TODO: Mail gönderme işlemi yapılacak
+
+            ViewBag.Message = "Form başarıyla iletildi, en kısa zamanda dönüş yapacağız.";
+            return View();
+        }
     }
 }
