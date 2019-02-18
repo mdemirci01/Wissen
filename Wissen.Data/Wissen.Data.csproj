@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201902151131545_InitialCreate.Designer.cs">
       <DependentUpon>201902151131545_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902181144554_nullableCategoryId.cs" />
+    <Compile Include="Migrations\201902181144554_nullableCategoryId.Designer.cs">
+      <DependentUpon>201902181144554_nullableCategoryId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
@@ -73,6 +77,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201902151131545_InitialCreate.resx">
       <DependentUpon>201902151131545_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902181144554_nullableCategoryId.resx">
+      <DependentUpon>201902181144554_nullableCategoryId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
